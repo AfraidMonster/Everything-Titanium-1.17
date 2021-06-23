@@ -4,7 +4,8 @@
 
 ### Minecraft Java edition
 
-### Requires Fabric version 1.17:https://fabricmc.net/use/ and fabric api:https://www.curseforge.com/minecraft/mc-mods/fabric-api
+
+### Fabric version 1.17:https://fabricmc.net/use/ and fabric api:https://www.curseforge.com/minecraft/mc-mods/fabric-api
 
 
 ## License
