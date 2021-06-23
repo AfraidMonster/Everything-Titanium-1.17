@@ -90,7 +90,7 @@ public class mod implements ModInitializer {
 	
 	
 	
-	//private static ConfiguredFeature<?, ?> TITANIUM_ORE_NETHER = Feature.ORE
+	///private static ConfiguredFeature<?, ?> TITANIUM_ORE_NETHER = Feature.ORE
     //.configure(new OreFeatureConfig(
     // OreFeatureConfig.Rules.BASE_STONE_NETHER, NETHER_TITANIUM_ORE.getDefaultState(),
      // 4))
