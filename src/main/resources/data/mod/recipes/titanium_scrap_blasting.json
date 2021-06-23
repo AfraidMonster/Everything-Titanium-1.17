@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:blasting",
+    "ingredient": {
+      "item": "mod:raw_titanium"
+    },
+    "result": "mod:titanium_scrap",
+    "experience": 0.35,
+    "cookingtime": 100
+  }

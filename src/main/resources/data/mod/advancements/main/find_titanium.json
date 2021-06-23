@@ -1,0 +1,26 @@
+{
+    "display":  {
+        "icon": {
+            "item": "mod:titanium_ingot"
+        },
+        "title": {
+            "translate": "advancements.find_titanium"
+        },
+        "description": {
+            "translate": "advancements.find_titanium_text"
+        },
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent" : "minecraft:story/mine_diamond",
+    "criteria" : {
+    	"found_amethyst" : {
+      		"trigger": "minecraft:inventory_changed",
+      		"conditions" : {
+      			"items" : [
+      			{"item" : "mod:raw_titanium"}
+      			]
+      		}
+    	}
+    }
+}

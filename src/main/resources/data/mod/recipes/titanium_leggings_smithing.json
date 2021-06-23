@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:smithing",
+    "base": {
+      "item": "minecraft:netherite_leggings"
+    },
+    "addition": {
+      "item": "mod:titanium_ingot"
+    },
+    "result": {
+      "item": "mod:titanium_leggings"
+    }
+  }

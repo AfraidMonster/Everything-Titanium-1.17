@@ -1,0 +1,23 @@
+{
+"block.mod.titanium_block":"Titanium Block",
+"block.mod.ender_titanium_ore":" Ender Titanium Ore",
+"block.mod.nether_titanium_ore":"Nether Titanium Ore",
+"item.mod.raw_titanium":"Raw Titanium",
+"item.mod.titanium_shard":"Titanium Shard",
+"item.mod.titanium_ingot":"Titanium Ingot",
+"item.mod.titanium_scrap":"Titanium Scrap",
+"item.mod.titanium_pickaxe":"Titanium Pickaxe",
+"item.mod.titanium_sword": "Titanium Sword",
+"item.mod.titanium_shovel": "Titanium Shovel",
+"item.mod.titanium_axe": "Titanium Axe",
+"item.mod.titanium_hoe": "Titanium Hoe",
+"item.mod.titanium_helmet": "Titanium Helmet",
+"item.mod.titanium_chestplate": "Titanium Chestplate",
+"item.mod.titanium_leggings": "Titanium Leggings",
+"item.mod.titanium_boots": "Titanium Boots",
+"itemGroup.mod.titanium_group": "Titanium",
+"advancements.find_titanium": "The Ultimate Resource",
+"advancements.find_titanium_text": "Discover Titanium"
+
+
+}

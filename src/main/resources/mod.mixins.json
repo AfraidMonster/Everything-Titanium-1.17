@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "afraidmonster.mod.example.mixins.",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "ArmorItemMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
+       

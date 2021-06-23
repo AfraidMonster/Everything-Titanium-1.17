@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "DOD",
+      "ONO",
+      "DOD"
+    ],
+    "key": {
+      "N": {
+        "item": "minecraft:netherite_ingot"
+      },
+      "O": {
+        "item": "mod:titanium_scrap"
+      },
+      "D": {
+        "item": "minecraft:diamond"
+      }
+    },
+    "result": {
+      "item": "mod:titanium_ingot"
+    }
+  }
