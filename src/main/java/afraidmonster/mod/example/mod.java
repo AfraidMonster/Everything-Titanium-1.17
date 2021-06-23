@@ -82,7 +82,7 @@ public class mod implements ModInitializer {
 	public static final Item TITANIUM_BOOTS = new ArmorItem(TITANIUM, EquipmentSlot.FEET, new Item.Settings().group(mod.TITANIUM_GROUP));
 	public static final Block NETHER_TITANIUM_ORE = new ModOreBlock(FabricBlockSettings.of(Material.STONE).strength(4.0F, 4.0F).sounds(BlockSoundGroup.STONE).breakByTool(FabricToolTags.PICKAXES, 4).requiresTool());
 	 
-	
+	ereee
 	
 	
 	
