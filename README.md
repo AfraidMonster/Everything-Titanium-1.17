@@ -1,8 +1,11 @@
-# Fabric Example Mod
+# Everything Titanium 1.17
 
-## Setup
+## Requirements
 
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
+### Minecraft Java edition
+
+### Requires Fabric version 1.17:https://fabricmc.net/use/ and fabric api:https://www.curseforge.com/minecraft/mc-mods/fabric-api
+
 
 ## License
 
