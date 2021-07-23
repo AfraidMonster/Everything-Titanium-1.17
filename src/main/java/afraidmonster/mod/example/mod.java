@@ -109,64 +109,11 @@ public class mod implements ModInitializer {
     .spreadHorizontally()
     .repeat(3);
 
-	//private static ConfiguredFeature<?, ?> TITANIUM_ORE_NETHER = Feature.ORE
-    //.configure(new OreFeatureConfig(
-    // OreFeatureConfig.Rules.BASE_STONE_NETHER, NETHER_TITANIUM_ORE.getDefaultState(),
-     // 4))
-    //.decorate(Decorator.RANGE.configure(new RangeDecoratorConfig(0, 0, 50)))
-    //.spreadHorizontally()
-  //  .repeat(3);
+	
 	
 	public static final String MOD_ID = "mod";
 
-	private static final ConfiguredSurfaceBuilder<TernarySurfaceConfig> CUSTOM_SURFACE_BUILDER_0 = SurfaceBuilder.DEFAULT
-	.withConfig(new TernarySurfaceConfig(
-		Blocks.ANCIENT_DEBRIS.getDefaultState(),
-		Blocks.ANDESITE.getDefaultState(),
-		Blocks.NETHERRACK.getDefaultState()));
-
-		private static final Biome CUSTOMLAND = createCustomLand();
-
-		private static Biome createCustomLand() {
-
-			SpawnSettings.Builder spawnSettings = new SpawnSettings.Builder();
-			DefaultBiomeFeatures.addMonsters(spawnSettings, 95, 5, 100);
-			DefaultBiomeFeatures.addFarmAnimals(spawnSettings);
-
-			GenerationSettings.Builder generatorSettings = new GenerationSettings.Builder();
-			generatorSettings.surfaceBuilder(CUSTOM_SURFACE_BUILDER_0);
-			DefaultBiomeFeatures.addDungeons(generatorSettings);
-			DefaultBiomeFeatures.addMineables(generatorSettings);
-			DefaultBiomeFeatures.addLandCarvers(generatorSettings);
-			DefaultBiomeFeatures.addDefaultUndergroundStructures(generatorSettings);
-
-			return (new Biome.Builder())
-			.precipitation(Biome.Precipitation.RAIN)
-			.category(Biome.Category.NONE)
-			.depth(0.125F)
-			.scale(0.05F)
-			.temperature(0.8F)
-			.downfall(0.4F)
-			.effects((new BiomeEffects.Builder())
-				.waterColor(0xb434eb)
-				.waterFogColor(0x050533)
-				.fogColor(0xffc0c0)
-				.skyColor(0xb434eb)
-				.build())
-			.spawnSettings(spawnSettings.build())
-			.generationSettings(generatorSettings.build())
-			.build();
-		}
-
-		public static final RegistryKey<Biome> CUSTOMLAND_KEY = RegistryKey.of(Registry.BIOME_KEY, new Identifier("testbiome", "customland"));
-    
-
-	@Override
-	@SuppressWarnings("deprecation")
-	public void onInitialize() {
-
-	OverworldBiomes.addContinentalBiome(CUSTOMLAND_KEY, OverworldClimate.TEMPERATE, 2D);
-	OverworldBiomes.addContinentalBiome(CUSTOMLAND_KEY, OverworldClimate.COOL, 2D);
+	
 
 
 
@@ -200,11 +147,7 @@ public class mod implements ModInitializer {
 	Registry.register(Registry.BLOCK, new Identifier("mod", "nether_titanium_ore"), NETHER_TITANIUM_ORE);
 	Registry.register(Registry.ITEM, new Identifier("mod", "nether_titanium_ore"), new BlockItem(NETHER_TITANIUM_ORE, new Item.Settings().group(mod.TITANIUM_GROUP).rarity(Rarity.UNCOMMON)));
 
-	Registry.register(BuiltinRegistries.CONFIGURED_SURFACE_BUILDER, new Identifier("testbiome","ancient_debris"), CUSTOM_SURFACE_BUILDER_0);
-	Registry.register(BuiltinRegistries.BIOME, CUSTOMLAND_KEY.getValue(), CUSTOMLAND);
-
-	OverworldBiomes.addContinentalBiome(CUSTOMLAND_KEY, OverworldClimate.TEMPERATE, 2D);
-	OverworldBiomes.addContinentalBiome(CUSTOMLAND_KEY, OverworldClimate.COOL, 2D);
+	
 	
 	
 
